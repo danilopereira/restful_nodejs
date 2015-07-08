@@ -1,0 +1,22 @@
+{
+  "name": "mean_project",
+  "version": "0.0.1",
+  "description": "first mean project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mean",
+    "danilopereira"
+  ],
+  "author": "danilo.pereira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "mongoose": "^4.0.6",
+    "nodemon": "^1.3.7",
+    "validator": "^3.41.1"
+  }
+}
