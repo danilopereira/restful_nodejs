@@ -16,7 +16,7 @@ app.get('/users', function(req, res){
 
 app.get('/users/:id', function(req, res){
 	var id = validator.trim(validator.escape(req.param('id')));
-	userController.list(id, function(resp){
+	userController.user(id, function(resp){
 		res.json(resp);
 	});
 });
